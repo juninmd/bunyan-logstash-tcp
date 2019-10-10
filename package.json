@@ -1,11 +1,11 @@
 {
-  "name": "bunyan-logstash-tcp",
+  "name": "bunyan-logstash-tcp-fork",
   "description": "Logstash TCP plugin for Bunyan",
   "version": "1.0.0",
-  "repository": "https://github.com/transcovo/bunyan-logstash-tcp.git",
-  "homepage": "https://github.com/transcovo/bunyan-logstash-tcp",
+  "repository": "https://github.com/juninmd/bunyan-logstash-tcp-fork.git",
+  "homepage": "https://github.com/juninmd/bunyan-logstash-tcp-fork",
   "main": "dist/lib/logstash.js",
-  "author": "Christoph Hartmann",
+  "author": "Antonio Carlos",
   "license": "MIT",
   "keywords": [
     "logstash",

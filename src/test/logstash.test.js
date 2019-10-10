@@ -567,6 +567,7 @@ describe('logstash', () => {
       it('Should write log to the socket when connected', () => {
         const stream = createStream();
         stream.connected = true;
+        stream.canWriteToExternalSocket = true;
         const sendLogStub = sandbox.stub(stream, 'sendLog');
         stream.send('hello');
         expect(sendLogStub.callCount).to.equal(1);
